@@ -16,6 +16,6 @@ public class Jenkins {
 		
 		String title = "birthday wishes - Google Search";
 		Assert.assertEquals(driver.getTitle(),title, "Expected page is not opened");
-		driver.close();
+		driver.close();//this is used to close the driver
 	}
 }
