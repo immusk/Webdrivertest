@@ -15,7 +15,7 @@ public class Jenkins {
 
 		driver = new FirefoxDriver();
 		driver.get("https://www.google.co.in/");
-		Assert.assertEquals(driver.getTitle(), "Google", "Expected page is not opened");
+		Assert.assertEquals(driver.getTitle(), "Googleing", "Expected page is not opened");
 		driver.quit();
 	}
 	
